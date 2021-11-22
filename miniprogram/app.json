@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/St1/index",
+    "pages/St2/index",
+    "pages/St3/index",
+    "pages/St4/index",
+    "pages/Integral/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "成绩查询系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#E4393C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/home.png",
+        "iconPath": "images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Integral/index",
+        "selectedIconPath": "images/info.png",
+        "iconPath": "images/info.png",
+        "text": "年度积分"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

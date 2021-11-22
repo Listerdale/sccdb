@@ -1,0 +1,38 @@
+/* pages/Integral/index.wxss */
+.flex-container{
+  margin: auto;
+  width: 700rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.Header1{
+  width: 150rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: white;
+  line-height: 80rpx;
+}
+.Header2{
+  width: 350rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: white;
+  line-height: 80rpx;
+}
+.Header3{
+  width: 200rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: white;
+  line-height: 80rpx;
+}

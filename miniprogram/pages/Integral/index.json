@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "integralheader":"/components/integralHeader/integralHeader",
+    "integralitem":"/components/integralItem/integralitem"
+  }
+}

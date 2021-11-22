@@ -1,0 +1,96 @@
+/* components/integralItem/integralitem.wxss */
+.flex-container{
+  margin: auto;
+  width: 700rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.rowRank{
+  width: 150rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  background-color: #06363C;
+  color: white;
+  line-height: 60rpx;
+}
+.rowName{
+  width: 350rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  background-color: #06363C;
+  color: white;
+  line-height: 60rpx;
+}
+.rowIntegral{
+  width: 200rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  background-color: #06363C;
+  color: white;
+  line-height: 60rpx;
+}
+.detail1{
+  margin: auto;
+  width: 600rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: #f6f6f6;
+  border: 0.5px solid;
+  border-bottom: solid;
+  color:#663300;
+}
+.teamLabel{
+  width: 150rpx;
+  height: 60rpx;
+  text-align: center;
+  background-color: #f6f6f6;
+  line-height: 60rpx;
+}
+.team{
+  width: 450rpx;
+  height: 60rpx;
+  text-align: center;
+  background-color: #f6f6f6;
+  line-height: 60rpx;
+}
+.detail2{
+  margin: auto;
+  width: 600rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: #f6f6f6;
+  border: 0.5px solid;
+  color:#663300;
+  border-bottom: none;
+}
+.StLabel{
+  width: 150rpx;
+  height: 60rpx;
+  text-align: center;
+  background-color: #f6f6f6;
+  line-height: 60rpx;
+}
+.detail3{
+  margin: auto;
+  width: 600rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: #f6f6f6;
+  border: 0.5px solid;
+  color:#663300;
+  border-top: none;
+}
+.StIntegral{
+  width: 150rpx;
+  height: 60rpx;
+  text-align: center;
+  background-color: #f6f6f6;
+  line-height: 60rpx;
+}
