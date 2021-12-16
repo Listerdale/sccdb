@@ -1,8 +1,9 @@
-
+const app = getApp()
 Page({
   data: {
     titleSrc:"https://cloud1-8gqdkxsy5b927768-1307885281.tcloudbaseapp.com/images/title_St3.png?sign=6700a239031ec0e7c110a04f200a5e5a&t=1637333795"
   },
+
 
   /**
    * 生命周期函数--监听页面加载

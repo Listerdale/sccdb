@@ -1,0 +1,15 @@
+<!--pages/St/index.wxml-->
+<view class="container">
+  <block wx:for="{{titleSrc}}">
+    <view class="cover">
+      <image src="{{item.add}}" mode="aspectFit"></image>
+      <view class="layer" style="background:linear-gradient(rgb(255, 255, 255,0),rgb(255, 255, 255,0),rgb(255, 255, 255,0), rgb(246,246,246));"></view>
+    </view>
+  </block>
+  <view class="blank"></view>
+  <groupitem wx:for="{{mList}}"
+    Name="{{item.match}}" 
+    data-mid="{{item.stid}}" 
+    bindtap="clickTo">
+  </groupitem>
+</view>

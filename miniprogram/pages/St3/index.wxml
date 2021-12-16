@@ -1,24 +1,38 @@
 <view class="container">
   <image src="{{titleSrc}}" mode="aspectFit"></image>
   <view class="groupItem">
-    男子公路精英组
+    <navigator url="/pages/result/index?item=21ST3XXXXEM">
+      男子公路精英组
+    </navigator>
   </view>
   <view class="groupItem">
-    公路自行车赛女子组
+    <navigator url="/pages/result/index?item=21ST3XXXXXW">
+      公路自行车赛女子组
+    </navigator>
   </view>
   <view class="groupItem">
-    公路自行车赛男子U30组
+    <navigator url="/pages/result/index?item=21ST3XXU30M">
+      公路自行车赛男子U30组
+    </navigator>
   </view>  
   <view class="groupItem">
-    公路自行车赛男子U55组
+    <navigator url="/pages/result/index?item=21ST3XXU55M">
+      公路自行车赛男子U55组
+    </navigator>
   </view>
   <view class="groupItem">
-    青少年甲组
+    <navigator url="/pages/result/index?item=21ST3XXXXTA">
+      青少年甲组
+    </navigator>
   </view>
   <view class="groupItem">
-    青少年乙组
+    <navigator url="/pages/result/index?item=21ST3XXXXTB">
+      青少年乙组
+    </navigator>
   </view>
   <view class="groupItem">
-    大学生团体接力组
+    <navigator url="/pages/result/index?item=21ST3XXXXUG">
+      大学生团体接力组
+    </navigator>
   </view>
 </view>

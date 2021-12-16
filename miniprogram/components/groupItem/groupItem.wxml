@@ -1,0 +1,2 @@
+<!--components/groupItem/groupItem.wxml-->
+<view class="groupItem">{{Name}}</view>

@@ -1,15 +1,26 @@
 <!--index.wxml-->
 <view class="container">
-  <image src="{{titleSrc}}" mode="aspectFit"></image>
+  <view class="cover">
+    <image src="{{titleSrc}}" mode="aspectFit"></image>
+    <view class="layer" style="background:linear-gradient(rgb(255, 255, 255,0),rgb(255, 255, 255,0),rgb(255, 255, 255,0), rgb(246,246,246));"></view>
+  </view>
+  <view class="blank"></view>
   <view class="l_title">中国·成都</view>
   <view class="title">天府绿道车迷健身节系列赛</view>
   <view class="top_tip">成绩查询系统</view>
+
+  <picker mode="selector" range="{{item.year}}" class="yearPicker">
+    <view>选择赛季</view>
+  </picker>
+
   <view class="flex-container">
     <view class="item1">第一站 温江</view>
     <view class="item2" bindtap="toSt2">第二站 青蒲</view>
   </view>
   <view class="flex-container">
-    <view class="item3" bindtap="toSt3">第三站 大邑</view>
+    <navigator url="/pages/St/index?Code=2021_03"><view class="item3">
+      第三站 大邑
+    </view></navigator>
     <view class="item4">第四站 邛峡</view>
   </view>
 </view>

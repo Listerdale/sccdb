@@ -1,0 +1,7 @@
+<!--components/headerElite/headerElite.wxml-->
+<view class="flex-container">
+  <view class="headerRank">{{Rank}}</view>
+  <view class="headerBib">{{Bib}}</view>
+  <view class="headerName">{{Name}}</view>
+  <view class="headerTotal">{{Total}}</view>
+</view>

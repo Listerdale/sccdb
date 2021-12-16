@@ -1,0 +1,9 @@
+/* pages/result/index.wxss */
+.integralTip{
+  margin: auto;
+}
+.container{
+  width: 700rpx;
+  height: 200rpx;
+  margin:auto;
+}

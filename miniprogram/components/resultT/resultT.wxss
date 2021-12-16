@@ -1,0 +1,81 @@
+/* components/resultOthers/resultOthers.wxss */
+.flex-container{
+  margin: auto;
+  width: 700rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.rowRank{
+  width: 100rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 60rpx;
+}
+.rowBib{
+  width: 140rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 60rpx;
+}
+.rowName{
+  width: 200rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 60rpx;
+}
+.rowTotal{
+  width: 260rpx;
+  height: 60rpx;
+  border: 1px solid;
+  text-align: center;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 60rpx;
+}
+.detailLine{
+  margin: auto;
+  width: 600rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: #f6f6f6;
+  border: 0.5px solid;
+  border-bottom: solid;
+  color:#663300;
+}
+.detailLineLast{
+  margin: auto;
+  width: 600rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: #f6f6f6;
+  border: 0.5px solid;
+  color:#663300;
+}
+.Label{
+  width: 150rpx;
+  height: 60rpx;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f6f6f6;
+  line-height: 60rpx;
+}
+.Text{
+  width: 450rpx;
+  height: 60rpx;
+  text-align: center;
+  background-color: #f6f6f6;
+  line-height: 60rpx;
+}

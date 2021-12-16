@@ -1,0 +1,21 @@
+<!--components/resultElite/resultElite.wxml-->
+<view class="flex-container" bindtap="showItem">
+  <view class="rowRank">{{Rank}}</view>
+  <view class="rowBib">{{Bib}}</view>
+  <view class="rowName">{{Name}}</view>
+  <view class="rowTotal">{{Total}}</view>
+</view>
+<view class="detail" hidden="{{!isShow}}">
+  <view class="detailLine">
+    <view class="Label">{{teamLabel}}</view>
+    <view class="Text">{{Team}}</view>
+  </view>
+  <view class="detailLine">
+    <view class="Label">{{diffLabel}}</view>
+    <view class="Text">{{Diff}}</view>
+  </view>
+  <view class="detailLineLast">
+    <view class="Label">{{speedLabel}}</view>
+    <view class="Text">{{Speed}}</view>
+  </view>
+</view>

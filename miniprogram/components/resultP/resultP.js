@@ -1,4 +1,4 @@
-// components/integralItem/integralitem.js
+// components/resultElite/resultElite.js
 Component({
   /**
    * 组件的属性列表
@@ -11,15 +11,19 @@ Component({
   properties: {
     Rank:{
       type:String,
-      value:'[排名]'
+      value:'[名次]'
+    },
+    Bib:{
+      type:String,
+      value:'[号码]'
     },
     Name:{
       type:String,
       value:'[姓名]'
     },
-    Integral:{
+    Total:{
       type:String,
-      value:'[积分]'
+      value:'[成绩]'
     },
     teamLabel:{
       type:String,
@@ -29,37 +33,21 @@ Component({
       type:String,
       value:'[队伍名]'
     },
-    StLabel1:{
+    diffLabel:{
       type:String,
-      value:'第1站'
+      value:'差距'
     },
-    StLabel2:{
+    Diff:{
       type:String,
-      value:'第2站'
+      value:'[差距]'
+    },    
+    speedLabel:{
+      type:String,
+      value:'平均速度'
     },
-    StLabel3:{
+    Speed:{
       type:String,
-      value:'第3站'
-    },
-    StLabel4:{
-      type:String,
-      value:'第4站'
-    },
-    StIntegral1:{
-      type:String,
-      value:'[第1站]'
-    },
-    StIntegral2:{
-      type:String,
-      value:'[第2站]'
-    },
-    StIntegral3:{
-      type:String,
-      value:'[第3站]'
-    },
-    StIntegral4:{
-      type:String,
-      value:'[第4站]'
+      value:'[平均速度]'
     },
   },
   /**

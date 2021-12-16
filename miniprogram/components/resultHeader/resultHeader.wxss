@@ -1,0 +1,48 @@
+/* components/headerElite/headerElite.wxss */
+.flex-container{
+  margin: auto;
+  width: 700rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.headerRank{
+  width: 100rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 80rpx;
+}
+.headerBib{
+  width: 140rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 80rpx;
+}
+.headerName{
+  width: 200rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 80rpx;
+}
+.headerTotal{
+  width: 260rpx;
+  height: 80rpx;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background-color: #06363C;
+  color: #F6F6F6;
+  line-height: 80rpx;
+}

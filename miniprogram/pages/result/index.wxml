@@ -1,0 +1,28 @@
+<!--pages/result/index.wxml-->
+<view class="integralTip">点击条目查看详情</view>
+<view class="container">
+  <resultheader></resultheader>
+  <block wx:if="{{ifp>0}}">
+    <block wx:for="{{resultArray}}" wx:key="{[rid]}">
+      <resultp Rank="{{item.Rank}}"
+        Bib="{{item.Bib}}"
+        Name="{{item.Name}}"
+        Total="{{item.Total}}"
+        Team="{{item.Team}}"
+        Diff="{{item.Diff}}"
+        Speed="{{item.Avg}}"
+      ></resultp>
+    </block>
+  </block>
+  <block wx:else>
+    <block wx:for="{{resultArray}}" wx:key="{[rid]}">
+      <resultt Rank="{{item.Rank}}"
+        Bib="{{item.Bib}}"
+        Name="{{item.Name}}"
+        Total="{{item.Total}}"
+        Diff="{{item.Diff}}"
+        Speed="{{item.Avg}}"
+      ></resultt>
+    </block>
+  </block>
+</view>

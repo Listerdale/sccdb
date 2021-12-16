@@ -1,22 +1,24 @@
 <!--components/integralItem/integralitem.wxml-->
-<view class="flex-container">
+<view class="flex-container" bindtap="showItem">
   <view class="rowRank">{{Rank}}</view>
   <view class="rowName">{{Name}}</view>
   <view class="rowIntegral">{{Integral}}</view>
 </view>
-<view class="detail1">
-  <view class="teamLabel">{{teamLabel}}</view>
-  <view class="team">{{Team}}</view>
-</view>
-<view class="detail2">
-  <view class="StLabel">{{StLabel1}}</view>
-  <view class="StLabel">{{StLabel2}}</view>
-  <view class="StLabel">{{StLabel3}}</view>
-  <view class="StLabel">{{StLabel4}}</view>
-</view>
-<view class="detail3">
-  <view class="StIntegral">{{StIntegral1}}</view>
-  <view class="StIntegral">{{StIntegral2}}</view>
-  <view class="StIntegral">{{StIntegral3}}</view>
-  <view class="StIntegral">{{StIntegral4}}</view>
+<view class="detail" hidden="{{!isShow}}">
+  <view class="detail1">
+    <view class="teamLabel">{{teamLabel}}</view>
+    <view class="team">{{Team}}</view>
+  </view>
+  <view class="detail2">
+    <view class="StLabel">{{StLabel1}}</view>
+    <view class="StLabel">{{StLabel2}}</view>
+    <view class="StLabel">{{StLabel3}}</view>
+    <view class="StLabel">{{StLabel4}}</view>
+  </view>
+  <view class="detail3">
+    <view class="StIntegral">{{StIntegral1}}</view>
+    <view class="StIntegral">{{StIntegral2}}</view>
+    <view class="StIntegral">{{StIntegral3}}</view>
+    <view class="StIntegral">{{StIntegral4}}</view>
+  </view>
 </view>

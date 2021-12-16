@@ -11,8 +11,9 @@
   height: 60rpx;
   border: 1px solid;
   text-align: center;
+  font-weight: bold;
   background-color: #06363C;
-  color: white;
+  color: #F6F6F6;
   line-height: 60rpx;
 }
 .rowName{
@@ -21,7 +22,7 @@
   border: 1px solid;
   text-align: center;
   background-color: #06363C;
-  color: white;
+  color: #F6F6F6;
   line-height: 60rpx;
 }
 .rowIntegral{
@@ -30,7 +31,7 @@
   border: 1px solid;
   text-align: center;
   background-color: #06363C;
-  color: white;
+  color: #F6F6F6;
   line-height: 60rpx;
 }
 .detail1{
@@ -48,6 +49,7 @@
   width: 150rpx;
   height: 60rpx;
   text-align: center;
+  font-weight: bold;
   background-color: #f6f6f6;
   line-height: 60rpx;
 }
@@ -73,6 +75,7 @@
   width: 150rpx;
   height: 60rpx;
   text-align: center;
+  font-weight: bold;
   background-color: #f6f6f6;
   line-height: 60rpx;
 }

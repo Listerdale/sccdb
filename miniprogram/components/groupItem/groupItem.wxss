@@ -1,0 +1,14 @@
+/* components/groupItem/groupItem.wxss */
+.groupItem{
+  background-image: url("https://cloud1-8gqdkxsy5b927768-1307885281.tcloudbaseapp.com/images/item.png?sign=597dc321b8eba500ca25efd926ff6e0d&t=1637334033");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 600rpx;
+  height: 150rpx;
+  text-indent: 30rpx;
+  font-size: x-large;
+  color: white;
+  line-height: 150rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}

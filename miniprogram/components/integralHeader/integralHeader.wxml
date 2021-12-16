@@ -1,6 +1,6 @@
 <!--pages/Integral/index.wxml-->
 <view class="flex-container">
-  <view class="Header1">{{Rank}}</view>
-  <view class="Header2">{{Name}}</view>
-  <view class="Header3">{{Integral}}</view>
+  <view class="headerRank">{{Rank}}</view>
+  <view class="headerName">{{Name}}</view>
+  <view class="headerIntegral">{{Integral}}</view>
 </view>

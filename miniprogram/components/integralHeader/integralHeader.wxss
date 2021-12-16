@@ -6,33 +6,33 @@
   justify-content: flex-start;
   flex-wrap: nowrap;
 }
-.Header1{
+.headerRank{
   width: 150rpx;
   height: 80rpx;
   border: 1px solid;
   text-align: center;
   font-weight: bold;
   background-color: #06363C;
-  color: white;
+  color: #F6F6F6;
   line-height: 80rpx;
 }
-.Header2{
+.headerName{
   width: 350rpx;
   height: 80rpx;
   border: 1px solid;
   text-align: center;
   font-weight: bold;
   background-color: #06363C;
-  color: white;
+  color: #F6F6F6;
   line-height: 80rpx;
 }
-.Header3{
+.headerIntegral{
   width: 200rpx;
   height: 80rpx;
   border: 1px solid;
   text-align: center;
   font-weight: bold;
   background-color: #06363C;
-  color: white;
+  color: #F6F6F6;
   line-height: 80rpx;
 }
