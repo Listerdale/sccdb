@@ -39,6 +39,7 @@ Page({
     that.setData({mList:all})
     wx.hideLoading()
   },
+  
   clickTo:function(e){
     wx.navigateTo({
       url: '/pages/result/index?item='+e.currentTarget.dataset.mid,

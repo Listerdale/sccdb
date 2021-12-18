@@ -1,11 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/apply-out/index",
     "pages/St/index",
-    "pages/St1/index",
-    "pages/St2/index",
-    "pages/St3/index",
-    "pages/St4/index",
     "pages/Integral/index",
     "pages/result/index"
   ],

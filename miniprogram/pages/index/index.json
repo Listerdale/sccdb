@@ -1,3 +1,5 @@
 {
-
+  "usingComponents": {
+    "stitem":"/components/stItem/stItem"
+  }
 }

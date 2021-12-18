@@ -1,0 +1,42 @@
+/* components/stItem/stItem.wxss */
+.stItem{
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: solid grey;
+  border-width: thin;
+  display: flex;
+  justify-content: center;
+}
+.stItem .flex{
+  display: flex;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.stT{
+  height: 100rpx;
+  width: 300rpx;
+  line-height: 100rpx;
+}
+.stS1{
+  height: 100rpx;
+  width: 280rpx;
+  line-height: 100rpx;
+  text-align: right;
+}
+.stS2{
+  height: 100rpx;
+  width: 280rpx;
+  line-height: 100rpx;
+  text-align: right;
+  color: grey;
+}
+.bl{
+  width: 20rpx;
+}
+.toIcon{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 25rpx;
+}

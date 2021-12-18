@@ -1,0 +1,12 @@
+<!--components/stItem/stItem.wxml-->
+<view class="stItem">
+  <view class="flex">
+    <view class="stT">{{st}}</view>
+    <view class="stS1" wx:if="{{v>0}}">可查看</view>
+    <view class="stS2" wx:if="{{v==0}}">报名中</view>
+    <view class="stS2" wx:if="{{v<0}}">无信息</view>
+    <view class="bl"></view>
+    <image mode="aspectFit" class="toIcon" src="{{toIconSrc}}"></image>
+  </view>
+</view>
+

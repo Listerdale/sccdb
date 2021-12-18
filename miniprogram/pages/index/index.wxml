@@ -8,19 +8,28 @@
   <view class="l_title">中国·成都</view>
   <view class="title">天府绿道车迷健身节系列赛</view>
   <view class="top_tip">成绩查询系统</view>
-
-  <picker mode="selector" range="{{item.year}}" class="yearPicker">
-    <view>选择赛季</view>
+  <picker mode="selector" range="{{yearList}}" class="yearPicker" bindchange="yearChanged">
+    {{yearList[yearIndex]}}▼
   </picker>
-
-  <view class="flex-container">
-    <view class="item1">第一站 温江</view>
-    <view class="item2" bindtap="toSt2">第二站 青蒲</view>
-  </view>
-  <view class="flex-container">
-    <navigator url="/pages/St/index?Code=2021_03"><view class="item3">
-      第三站 大邑
-    </view></navigator>
-    <view class="item4">第四站 邛峡</view>
-  </view>
+  <view class="blank2"></view>
+  <block wx:for="{{stList}}">
+    <stitem wx:if="{{item.v>0}}"
+    st="{{item.st}}"
+    v="{{item.v}}"
+    data-stid="{{item.toSt}}"
+    toIconSrc="https://cloud1-8gqdkxsy5b927768-1307885281.tcloudbaseapp.com/images/chevron-right-arrow.1139x2048.png?sign=4a94a0fc1bd2d626719c0819d1e5e4e7&t=1639820388"
+    bindtap="tost"
+    ></stitem>
+    <stitem wx:elif="{{item.v<0}}"
+    st="{{item.st}}"
+    data-stid="{{item.toSt}}"
+    toIconSrc=''
+    ></stitem>
+    <stitem wx:else
+    st="{{item.st}}"
+    data-stid="{{item.toSt}}"
+    toIconSrc='https://cloud1-8gqdkxsy5b927768-1307885281.tcloudbaseapp.com/images/clock-time.2048x2048.png?sign=6fca7a5e7eea5519a4e7a26fb6d2efd9&t=1639820611'
+    bindtap="toapply"
+    ></stitem>
+  </block>
 </view>

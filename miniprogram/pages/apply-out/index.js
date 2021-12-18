@@ -1,18 +1,20 @@
-// pages/St1/index.js
+// pages/apply-out/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    Src:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    var that = this
+    var add = options.Add
+    that.setData({Src:add})
   },
 
   /**

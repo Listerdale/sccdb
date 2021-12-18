@@ -11,7 +11,6 @@ Page({
   },
   async onLoad(options){
     var pageItem = options.item
-    console.log(options.item)
     wx.showLoading({
       title: '加载中',
     })
