@@ -1,0 +1,22 @@
+<!--pages/Athlete/index.wxml-->
+<block wx:for="{{p}}">
+  <view class="athleteName">{{item.Name}}</view>
+</block>
+<block wx:if="{{ifE}}" wx:for="{{a}}">
+  <athleteInformation
+    integral="{{item.Total}}"
+    rank="{{item.Rank}}"
+  ></athleteInformation>
+</block>
+<view class="sub-title">2021</view>
+<resultHeader></resultHeader>
+<resultP wx:for="{{iArray}}"
+  wx:if="{{item.ifex>0}}"
+  Rank="{{item.Rank}}"
+        Bib="{{item.Bib}}"
+        Name="{{item.Name}}"
+        Total="{{item.Total}}"
+        Team="{{item.Team}}"
+        Diff="{{item.Diff}}"
+        Speed="{{item.Avg}}"
+></resultP>

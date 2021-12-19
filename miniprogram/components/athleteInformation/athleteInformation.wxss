@@ -1,0 +1,44 @@
+/* components/athleteInformation/athleteInformation.wxss */
+.athleteName{
+  text-align: center;
+  height: 160rpx;
+  line-height: 160rpx;
+  font-size: 65rpx;
+  background-color: #06363C;
+  color: #F6F6F6;
+  border-bottom: solid #F6F6F6;
+  border-top: solid #F6F6F6;
+  border-width: 10rpx;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  width: 750rpx;
+  border-bottom: solid #F6F6F6;
+  border-width: 10rpx;
+}
+.Label{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: small;
+  text-align: center;
+  color: #F6F6F6;
+}
+.Integral{
+  width: 370rpx;
+  background-color: #06363C;
+}
+.Integral .i{
+  font-size: 80rpx;
+  text-align: center;
+  color: #F6F6F6;
+}
+.Rank{
+  width: 370rpx;
+  background-color: #06363C;
+}
+.Rank .r{
+  font-size: 80rpx;
+  text-align: center;
+  color: #F6F6F6;
+}

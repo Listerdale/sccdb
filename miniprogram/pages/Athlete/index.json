@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "athleteInformation":"/components/athleteInformation/athleteInformation",
+    "resultHeader":"/components/resultHeader/resultHeader",
+    "resultP":"/components/resultP/resultP"
+  }
+}

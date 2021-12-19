@@ -1,49 +1,57 @@
-// pages/St/index.js
+// pages/Athlete/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    titleSrc:[],//头图
-    mList:[]//分组列表
+    a:[],
+    p:[],
+    ifE:0,
+    iArray:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   async onLoad(options){
-    var C = options.Code
-    const cList = "list"
-    var iC = cList.concat(C)//生成参数
-    wx.showLoading({title: '加载中'})
+    wx.showLoading({title: '加载中',})
+    var pid0 = options.athleteid
     var that = this
-    that.setData({titleSrc:[],mList:[]})//初始化
-    //传递参数获取头图链接
+    that.setData({ifE:0})
+    if(pid0.slice(0,1)=='M'){that.setData({ifE:1})}
+    const db0 = wx.cloud.database()
+    let temp0 = []
+    let listP0 = await db0.collection('Total').where({pid:pid0}).get()
+    temp0 = listP0.data    
+    that.setData({p:temp0})
     const db1 = wx.cloud.database()
     let temp = []
-    let listP = await db1.collection('imageUrl').where({ys:C}).get()
+    let listP = await db1.collection('21I').where({pid:pid0}).get()
     temp = listP.data    
-    that.setData({titleSrc:temp})
-    //获取各组列表
+    that.setData({a:temp})
+
     const db2 = wx.cloud.database()
-    let count = await db2.collection(iC).count()
+    let count = await db2.collection('Total').count()
     count = count.total
     let all = []
     for (let i = 0; i < count; i += 20){
-      let listI = await db2.collection(iC).skip(i).get()
-      all = all.concat(listI.data)
+      let list = await db2.collection('Total').skip(i).get()
+      all = all.concat(list.data)
     }
-    that.setData({mList:all})
+    that.setData({iArray:all})    
+    for (var s in that.data.iArray) {
+      let i = 'iArray[' + s + '].ifex'
+      that.setData({[i]: 0})
+    }
+    for (var index in that.data.iArray) {
+      var ifn = that.data.iArray[index].pid.indexOf(pid0)
+      let i = 'iArray[' + index + '].ifex'
+      if (ifn != -1) {that.setData({[i]: 1})}
+    }
     wx.hideLoading()
   },
-  
-  //跳转至成绩页
-  clickTo:function(e){
-    wx.navigateTo({
-      url: '/pages/result/index?item='+e.currentTarget.dataset.mid,
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

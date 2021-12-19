@@ -7,3 +7,9 @@
   height: 200rpx;
   margin:auto;
 }
+.frame{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100rpx;
+  line-height: 100rpx;
+}

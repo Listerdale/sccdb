@@ -1,0 +1,11 @@
+<!--components/athleteInformation/athleteInformation.wxml-->
+<view class="flex">
+  <view class="Integral">
+    <view class="Label">{{year}}年 积分</view>
+    <view class="i">{{integral}}</view>
+  </view>
+  <view class="Rank">
+    <view class="Label">{{year}}年 排名</view>
+    <view class="r">第{{rank}}名</view>
+  </view>
+</view>

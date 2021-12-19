@@ -1,7 +1,7 @@
 {
   "usingComponents": {
-    "resultheader":"/components/resultHeader/resultHeader",
-    "resultp":"/components/resultP/resultP",
-    "resultt":"/components/resultT/resultT"
+    "resultHeader":"/components/resultHeader/resultHeader",
+    "resultP":"/components/resultP/resultP",
+    "resultT":"/components/resultT/resultT"
   }
 }

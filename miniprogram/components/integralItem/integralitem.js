@@ -61,6 +61,10 @@ Component({
       type:String,
       value:'[第4站]'
     },
+    pid:{
+      type:String
+    }
+    
   },
   /**
    * 组件的初始数据
@@ -77,6 +81,6 @@ Component({
       this.setData({
         isShow: !this.data.isShow
       })
-    },
+    }
   }
 })

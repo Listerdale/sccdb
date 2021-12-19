@@ -1,28 +1,53 @@
 <!--pages/result/index.wxml-->
 <view class="integralTip">点击条目查看详情</view>
+<view class="frame">
+  <switch bindchange="changeV"></switch>
+  <view class="label">{{tc}}</view>
+</view>
 <view class="container">
-  <resultheader></resultheader>
+  <resultHeader></resultHeader>
   <block wx:if="{{ifp>0}}">
     <block wx:for="{{resultArray}}" wx:key="{[rid]}">
-      <resultp Rank="{{item.Rank}}"
+      <resultP wx:if="{{ift<1}}"
+        Rank="{{item.Rank}}"
         Bib="{{item.Bib}}"
         Name="{{item.Name}}"
         Total="{{item.Total}}"
         Team="{{item.Team}}"
         Diff="{{item.Diff}}"
         Speed="{{item.Avg}}"
-      ></resultp>
+      ></resultP>
+      <resultP wx:if="{{ift>0}}"
+        Rank="{{item.Rank}}"
+        Bib="{{item.Bib}}"
+        Name="{{item.Name}}"
+        Total="{{item.Diff}}"
+        Team="{{item.Team}}"
+        Diff="{{item.Total}}"
+        Speed="{{item.Avg}}"
+        diffLabel="成绩"
+      ></resultP>
     </block>
   </block>
   <block wx:else>
     <block wx:for="{{resultArray}}" wx:key="{[rid]}">
-      <resultt Rank="{{item.Rank}}"
+      <resultT wx:if="{{ift<1}}"
+        Rank="{{item.Rank}}"
         Bib="{{item.Bib}}"
         Name="{{item.Name}}"
         Total="{{item.Total}}"
         Diff="{{item.Diff}}"
         Speed="{{item.Avg}}"
-      ></resultt>
+      ></resultT>
+      <resultT wx:if="{{ift>0}}"
+        Rank="{{item.Rank}}"
+        Bib="{{item.Bib}}"
+        Name="{{item.Name}}"
+        Total="{{item.Diff}}"
+        Diff="{{item.Total}}"
+        Speed="{{item.Avg}}"
+        diffLabel="成绩"
+      ></resultT>
     </block>
   </block>
 </view>

@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "integralheader":"/components/integralHeader/integralHeader",
-    "integralitem":"/components/integralItem/integralitem"
+    "integralHeader":"/components/integralHeader/integralHeader",
+    "integralItem":"/components/integralItem/integralItem"
   }
 }

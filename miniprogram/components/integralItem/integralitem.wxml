@@ -6,6 +6,10 @@
 </view>
 <view class="detail" hidden="{{!isShow}}">
   <view class="detail1">
+    <view class="teamLabel">姓名</view>
+    <view class="team">{{Name}}</view>
+  </view>
+  <view class="detail1">
     <view class="teamLabel">{{teamLabel}}</view>
     <view class="team">{{Team}}</view>
   </view>

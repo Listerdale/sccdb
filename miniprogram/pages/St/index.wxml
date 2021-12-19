@@ -7,9 +7,9 @@
     </view>
   </block>
   <view class="blank"></view>
-  <groupitem wx:for="{{mList}}"
+  <groupItem wx:for="{{mList}}"
     Name="{{item.match}}" 
     data-mid="{{item.stid}}" 
     bindtap="clickTo">
-  </groupitem>
+  </groupItem>
 </view>

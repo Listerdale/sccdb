@@ -4,7 +4,9 @@
     "pages/apply-out/index",
     "pages/St/index",
     "pages/Integral/index",
-    "pages/result/index"
+    "pages/result/index",
+    "pages/Athlete/index",
+    "pages/Search/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -17,6 +19,12 @@
     "selectedColor": "#E4393C",
     "list": [
       {
+        "pagePath": "pages/Search/index",
+        "selectedIconPath": "images/search.png",
+        "iconPath": "images/search.png",
+        "text": "搜索"
+      },
+      {
         "pagePath": "pages/index/index",
         "selectedIconPath": "images/home.png",
         "iconPath": "images/home.png",
@@ -28,6 +36,7 @@
         "iconPath": "images/info.png",
         "text": "年度积分"
       }
+
     ]
   },
   "sitemapLocation": "sitemap.json",

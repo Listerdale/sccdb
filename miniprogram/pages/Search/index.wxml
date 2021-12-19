@@ -1,0 +1,13 @@
+<!--pages/Search/index.wxml-->
+<view class="search">
+    <input value="{{searchText}}" bindinput="athleteInput" confirm-type="search" bindconfirm="athleteSearch" disabled="{{ab}}"></input>
+    <view class="s" bindtap="athleteSearch">搜索</view>
+</view>
+<block wx:for="{{athleteArray}}">
+    <view class="flex" wx:if="{{item.ifex>0}}" data-pid="{{item.pid}}" bindtap="toAthlete">
+        <view class="sItem">{{item.name}}</view>
+        <view class="label">点击查看</view>
+        <image src="https://cloud1-8gqdkxsy5b927768-1307885281.tcloudbaseapp.com/images/chevron-right-arrow.1139x2048.png?sign=21341e1103a0be148fe7d2ec92afad0e&t=1639876538" mode="aspectFit"></image>
+        <view class="bl"></view>
+    </view>
+</block>
