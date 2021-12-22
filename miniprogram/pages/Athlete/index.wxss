@@ -1,4 +1,7 @@
 /* pages/Athlete/index.wxss */
+.tip{
+  margin: auto;
+}
 .sub-title{
   height: 60rpx;
   line-height: 60rpx;

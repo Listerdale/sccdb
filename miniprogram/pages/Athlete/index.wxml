@@ -6,7 +6,7 @@
     rank="{{item.Rank}}"
   ></athleteInformation>
 </block>
-
+<view class="tip">点击条目查看详情</view>
 <block wx:for="{{iArray}}" wx:if="{{item.ifex>0}}">
 <view class="sub-title">{{item.gid}}</view>
 <resultHeader></resultHeader>

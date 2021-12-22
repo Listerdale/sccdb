@@ -108,7 +108,6 @@ Page({
   },
 
   toAthlete: function(e){
-    console.log(e.currentTarget)
     var t = e.currentTarget.dataset.pid
     wx.navigateTo({
       url: '/pages/Athlete/index?athleteid=' + t,
