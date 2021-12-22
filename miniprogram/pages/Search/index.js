@@ -8,7 +8,8 @@ Page({
   data: {
     searchText:'',
     athleteArray:[],
-    ab:1
+    ab:1,
+    rw:0
   },
 
   /**
@@ -16,6 +17,12 @@ Page({
    */
   async onLoad(options) {
     var that = this
+    const dbrw = wx.cloud.database()
+    await dbrw.collection('ifRoadwork').doc('133e253361c2caad019f3722093bfb73').get({
+      success:function(res){
+        that.setData({rw:res.data.ifrw})
+      }
+    })
     wx.showLoading({title: '加载中',})
     const db2 = wx.cloud.database()
     let count = await db2.collection('Athlete').count()

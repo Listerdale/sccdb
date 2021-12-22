@@ -1,5 +1,5 @@
 <!--pages/Search/index.wxml-->
-<view class="search">
+<view class="search"  hidden="{{rw}}">
     <input value="{{searchText}}" bindinput="athleteInput" confirm-type="search" bindconfirm="athleteSearch" disabled="{{ab}}"></input>
     <view class="s" bindtap="athleteSearch">搜索</view>
 </view>

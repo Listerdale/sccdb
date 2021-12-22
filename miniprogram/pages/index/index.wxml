@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<view class="container" hidden="{{rw}}">
   <view class="cover">
     <image src="{{titleSrc}}" mode="aspectFit"></image>
     <view class="layer" style="background:linear-gradient(rgb(255, 255, 255,0),rgb(255, 255, 255,0),rgb(255, 255, 255,0), rgb(246,246,246));"></view>

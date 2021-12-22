@@ -9,20 +9,24 @@ Page({
     applyAdd:'',
     searchText:'输入运动员姓名...',
     athleteArray:[],
-    resultArray:[]
+    rw:0
   },
 
   //加载页面触发
   async onLoad(){
-    wx.showLoading({title: '加载中',})
     var that = this
+    const dbrw = wx.cloud.database()
+    await dbrw.collection('ifRoadwork').doc('133e253361c2caad019f3722093bfb73').get({
+      success:function(res){
+        that.setData({rw:res.data.ifrw})
+      }
+    })
     that.getStList(that.data.yearIndex)//调用getStList函数获取该年各站列表
     const db1 = wx.cloud.database()
     db1.collection('applyAdd').doc('767fe18e61bdb1420044a9b24fd865a7').get({
       success:function(res){that.setData({applyAdd:res.data.applyAdd})
       } 
     })
-    wx.hideLoading()
   },
 
   //点击年份列表改变年份

@@ -8,7 +8,7 @@ Page({
   data: {
     resultArray:[],//比赛成绩数组
     ifp:1,//判断个人赛（1）/团体赛（0）
-    tc:'显示最终成绩',
+    tc:'显示秒差',
     ift:0
   },
 
@@ -34,8 +34,8 @@ Page({
 
   changeV:function(e){
     var that = this
-    if(e.detail.value){that.setData({tc:'显示秒差',ift:1})}
-    else{that.setData({tc:'显示最终成绩',ift:0})}
+    if(e.detail.value){that.setData({tc:'显示成绩',ift:1})}
+    else{that.setData({tc:'显示秒差',ift:0})}
   }
 
 })

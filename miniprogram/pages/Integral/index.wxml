@@ -1,9 +1,9 @@
 <!--pages/Integral/index.wxml-->
-<view class="integralTip">点击条目查看详情</view>
-<view class="container">
+<view class="integralTip" hidden="{{rw}}">点击条目查看详情</view>
+<view class="container" hidden="{{rw}}">
   <integralHeader></integralHeader>
-  <block wx:for="{{integralArray}}" wx:key="{[iid]}">
-  <integralItem Rank="{{item.Rank}}"
+    <block wx:for="{{integralArray}}" wx:key="{[iid]}">
+      <integralItem Rank="{{item.Rank}}"
     Name="{{item.Name}}"
     Integral="{{item.Total}}"
     Team="{{item.Team}}"
@@ -12,6 +12,6 @@
     StIntegral3="{{item.St3}}"
     StIntegral4="{{item.St4}}"
     pid="{{item.pid}}"
-  ></integralItem>
-</block>
+      ></integralItem>
+    </block>
 </view>
