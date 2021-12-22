@@ -8,7 +8,8 @@ Page({
     a:[],
     p:[],
     ifE:0,
-    iArray:[]
+    iArray:[],
+    g:[]
   },
 
   /**
@@ -23,8 +24,8 @@ Page({
     const db0 = wx.cloud.database()
     let temp0 = []
     let listP0 = await db0.collection('Total').where({pid:pid0}).get()
-    temp0 = listP0.data    
-    that.setData({p:temp0})
+    temp0 = listP0.data
+    that.setData({p:temp0[0]})
     const db1 = wx.cloud.database()
     let temp = []
     let listP = await db1.collection('21I').where({pid:pid0}).get()
