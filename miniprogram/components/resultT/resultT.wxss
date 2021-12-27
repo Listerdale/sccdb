@@ -1,4 +1,4 @@
-/* components/resultOthers/resultOthers.wxss */
+/*行整体框架*/
 .flex-container{
   margin: auto;
   width: 700rpx;
@@ -6,6 +6,7 @@
   justify-content: flex-start;
   flex-wrap: nowrap;
 }
+/*名次数值*/
 .rowRank{
   width: 100rpx;
   height: 60rpx;
@@ -16,6 +17,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*号码数值*/
 .rowBib{
   width: 140rpx;
   height: 60rpx;
@@ -25,6 +27,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*姓名*/
 .rowName{
   width: 200rpx;
   height: 60rpx;
@@ -34,6 +37,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*成绩值*/
 .rowTotal{
   width: 260rpx;
   height: 60rpx;
@@ -43,6 +47,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*详情行整体框架格式*/
 .detailLine{
   margin: auto;
   width: 600rpx;
@@ -54,6 +59,7 @@
   border-bottom: solid;
   color:#663300;
 }
+/*最后一行详情行整体框架格式*/
 .detailLineLast{
   margin: auto;
   width: 600rpx;
@@ -64,6 +70,7 @@
   border: 0.5px solid;
   color:#663300;
 }
+/*标签格式*/
 .Label{
   width: 150rpx;
   height: 60rpx;
@@ -72,6 +79,7 @@
   background-color: #f6f6f6;
   line-height: 60rpx;
 }
+/*内容格式*/
 .Text{
   width: 450rpx;
   height: 60rpx;

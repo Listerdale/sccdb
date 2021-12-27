@@ -1,4 +1,5 @@
 /* pages/St/index.wxss */
+/*顶部图片*/
 .cover{
   width: 100%;
   height: 200rpx;
@@ -6,26 +7,19 @@
   display: flex;
   flex-direction: column
 }
+/*图片内容*/
 .cover Image{
   width: 100%;
   height: 200rpx;
   }
+/*添加渐变*/
 .cover .layer {
     width: 100%;
     height: 200rpx;
     margin-top: -200rpx;
     z-index: 999;
   }
-  .blank{
+/*图片与元素间间隙*/
+.blank{
     margin-bottom: 40rpx;
   }
-.shell{
-  width: 600rpx;
-  height: 150rpx;
-  margin-bottom: 20rpx;
-}
-.shellS{
-  width: 600rpx;
-  height: 150rpx;
-  margin-bottom: 20rpx;
-}

@@ -1,4 +1,5 @@
 /* components/stItem/stItem.wxss */
+/*条目整体框架*/
 .stItem{
   width: 750rpx;
   height: 100rpx;
@@ -8,23 +9,27 @@
   display: flex;
   justify-content: center;
 }
+/*内部元素排列*/
 .stItem .flex{
   display: flex;
   width: 650rpx;
   display: flex;
   justify-content: space-between;
 }
+/*站点名称*/
 .stT{
   height: 100rpx;
   width: 300rpx;
   line-height: 100rpx;
 }
+/*站点可查看*/
 .stS1{
   height: 100rpx;
   width: 280rpx;
   line-height: 100rpx;
   text-align: right;
 }
+/*站点报名中或无信息*/
 .stS2{
   height: 100rpx;
   width: 280rpx;
@@ -32,9 +37,11 @@
   text-align: right;
   color: grey;
 }
+/*元素间间隙*/
 .bl{
   width: 20rpx;
 }
+/*跳转图标*/
 .toIcon{
   height: 50rpx;
   width: 50rpx;

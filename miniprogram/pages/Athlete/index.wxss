@@ -1,12 +1,5 @@
 /* pages/Athlete/index.wxss */
-.tip{
-  margin: auto;
-}
-.sub-title{
-  height: 60rpx;
-  line-height: 60rpx;
-  text-indent: 50rpx;
-}
+/*运动员姓名*/
 .athleteName{
   text-align: center;
   height: 160rpx;
@@ -17,4 +10,14 @@
   border-bottom: solid #F6F6F6;
   border-top: solid #F6F6F6;
   border-width: 10rpx;
+}
+/*页面上方提示*/
+.tip{
+  margin: auto;
+}
+/*显示组别信息*/
+.sub-title{
+  height: 60rpx;
+  line-height: 60rpx;
+  text-indent: 50rpx;
 }

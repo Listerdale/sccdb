@@ -1,4 +1,5 @@
 /* pages/Search/index.wxss */
+/*搜索框 整体样式设置*/
 .search{
   display: flex;
   width: 700rpx;
@@ -8,14 +9,17 @@
   border-left: 25rpx solid #f6f6f6ab;
   border-right: 25rpx solid #f6f6f6ab;
 }
+/*输入区*/
 .search input{
   width: 500rpx;
   background-color: white;
 }
+/*“搜索”指示*/
 .search .s{
   width: 200rpx;
   text-align: center;
 }
+/*搜索结果条目*/
 .flex{
   display: flex;
   width: 750rpx;
@@ -23,23 +27,27 @@
   border-bottom: solid grey;
   border-width: thin;
 }
+/*搜索结果姓名*/
 .sItem{
   width: 500rpx;
   height: 100rpx;
   line-height: 100rpx;
   text-indent: 50rpx;
 }
+/*“点击查看”指示*/
 .label{
   width: 150rpx;
   height: 100rpx;
   line-height: 100rpx;
   text-align: right;
 }
+/*箭头指示*/
 .flex image{
   width: 50rpx;
   height: 50rpx;
   margin-top: 25rpx;
 }
+/*元素与屏幕边缘空隙*/
 .bl{
   width: 50rpx;
 }

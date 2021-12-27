@@ -1,4 +1,5 @@
 /* components/headerElite/headerElite.wxss */
+/*标题行整体框架设置*/
 .flex-container{
   margin: auto;
   width: 700rpx;
@@ -6,6 +7,7 @@
   justify-content: flex-start;
   flex-wrap: nowrap;
 }
+/*排名列标签*/
 .headerRank{
   width: 100rpx;
   height: 80rpx;
@@ -16,6 +18,7 @@
   color: #F6F6F6;
   line-height: 80rpx;
 }
+/*号码列标签*/
 .headerBib{
   width: 140rpx;
   height: 80rpx;
@@ -26,6 +29,7 @@
   color: #F6F6F6;
   line-height: 80rpx;
 }
+/*姓名列标签*/
 .headerName{
   width: 200rpx;
   height: 80rpx;
@@ -36,6 +40,7 @@
   color: #F6F6F6;
   line-height: 80rpx;
 }
+/*成绩列标签*/
 .headerTotal{
   width: 260rpx;
   height: 80rpx;

@@ -1,15 +1,5 @@
 /* components/athleteInformation/athleteInformation.wxss */
-.athleteName{
-  text-align: center;
-  height: 160rpx;
-  line-height: 160rpx;
-  font-size: 65rpx;
-  background-color: #06363C;
-  color: #F6F6F6;
-  border-bottom: solid #F6F6F6;
-  border-top: solid #F6F6F6;
-  border-width: 10rpx;
-}
+/*组件整体框架设置*/
 .flex{
   display: flex;
   justify-content: space-between;
@@ -17,6 +7,7 @@
   border-bottom: solid #F6F6F6;
   border-width: 10rpx;
 }
+/*标签*/
 .Label{
   height: 60rpx;
   line-height: 60rpx;
@@ -24,19 +15,23 @@
   text-align: center;
   color: #F6F6F6;
 }
+/*积分*/
 .Integral{
   width: 370rpx;
   background-color: #06363C;
 }
+/*积分数值*/
 .Integral .i{
   font-size: 80rpx;
   text-align: center;
   color: #F6F6F6;
 }
+/*排名*/
 .Rank{
   width: 370rpx;
   background-color: #06363C;
 }
+/*排名数值*/
 .Rank .r{
   font-size: 80rpx;
   text-align: center;

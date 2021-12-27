@@ -1,4 +1,5 @@
 /* components/groupItem/groupItem.wxss */
+/*整体格式设置*/
 .groupItem{
   background-image: url("https://cloud1-8gqdkxsy5b927768-1307885281.tcloudbaseapp.com/images/item.png?sign=597dc321b8eba500ca25efd926ff6e0d&t=1637334033");
   background-size: 100% 100%;

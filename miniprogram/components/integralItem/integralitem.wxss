@@ -1,4 +1,5 @@
 /* components/integralItem/integralitem.wxss */
+/*整行框架设置*/
 .flex-container{
   margin: auto;
   width: 700rpx;
@@ -6,6 +7,7 @@
   justify-content: flex-start;
   flex-wrap: nowrap;
 }
+/*排名数值*/
 .rowRank{
   width: 150rpx;
   height: 60rpx;
@@ -16,6 +18,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*姓名*/
 .rowName{
   width: 350rpx;
   height: 60rpx;
@@ -25,6 +28,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*积分数值*/
 .rowIntegral{
   width: 200rpx;
   height: 60rpx;
@@ -34,6 +38,7 @@
   color: #F6F6F6;
   line-height: 60rpx;
 }
+/*详细信息 第一行 整体格式*/
 .detail1{
   margin: auto;
   width: 600rpx;
@@ -45,6 +50,7 @@
   border-bottom: solid;
   color:#663300;
 }
+/*标签格式*/
 .teamLabel{
   width: 150rpx;
   height: 60rpx;
@@ -53,6 +59,7 @@
   background-color: #f6f6f6;
   line-height: 60rpx;
 }
+/*姓名 队伍*/
 .team{
   width: 450rpx;
   height: 60rpx;
@@ -60,6 +67,7 @@
   background-color: #f6f6f6;
   line-height: 60rpx;
 }
+/*详细信息 第二行 整体格式*/
 .detail2{
   margin: auto;
   width: 600rpx;
@@ -71,6 +79,7 @@
   color:#663300;
   border-bottom: none;
 }
+/*站点 标签*/
 .StLabel{
   width: 150rpx;
   height: 60rpx;
@@ -79,6 +88,7 @@
   background-color: #f6f6f6;
   line-height: 60rpx;
 }
+/*详细信息 第三行 整体格式*/
 .detail3{
   margin: auto;
   width: 600rpx;
@@ -90,6 +100,7 @@
   color:#663300;
   border-top: none;
 }
+/*各站积分*/
 .StIntegral{
   width: 150rpx;
   height: 60rpx;
